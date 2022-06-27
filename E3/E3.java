@@ -8,13 +8,13 @@ public class E3 {
         List<String> palabras = List.of("Batman", "Aq", "FLash", "Batgirl", "WondeW", "brainiac");
         System.out.println(palabras);
     
-        Long cantidadDeletrab = palabras.stream()
+        Long cantidadDeLetrab = palabras.stream()
 
             .map(String::toLowerCase)
             .filter(palabra -> palabra.startsWith("b"))
             .count();
             //.forEach(System.out::println);
-        System.out.println(cantidadDeletrab);
+        System.out.println(cantidadDeLetrab);
         
     }
 }
